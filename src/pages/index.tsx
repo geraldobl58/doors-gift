@@ -1,3 +1,9 @@
+import Gift from 'components/Gift'
+
 export default function Home() {
-  return <h1>Nextjs</h1>
+  return (
+    <>
+      <Gift />
+    </>
+  )
 }
